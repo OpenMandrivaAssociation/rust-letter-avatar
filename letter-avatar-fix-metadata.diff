@@ -1,0 +1,20 @@
+--- letter-avatar-1.2.0/Cargo.toml	1970-01-01T00:00:00+00:00
++++ letter-avatar-1.2.0/Cargo.toml	2020-01-31T23:16:03.863649+00:00
+@@ -18,14 +18,14 @@
+ license = "GPL-3.0+"
+ repository = "https://gitlab.gnome.org/jsparber/letter-avatar"
+ [dependencies.cairo-rs]
+-version = "0.7.0"
++version = "0.8.0"
+ features = ["png"]
+ 
+ [dependencies.pango]
+-version = "0.7.0"
++version = "0.8.0"
+ 
+ [dependencies.pangocairo]
+-version = "0.8.0"
++version = "0.9.0"
+ 
+ [dependencies.unicode-segmentation]
+ version = "1.2.1"
